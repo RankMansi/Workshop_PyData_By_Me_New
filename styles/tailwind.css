@@ -1,0 +1,28 @@
+/* styles/tailwind.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Define custom colors */
+.theme {
+  --background-color: #000; /* Black */
+  --content-color: #c9a7a7; /* Light Purple */
+}
+
+/* Use the custom colors in your components */
+.bg-black {
+  background-color: var(--background-color);
+  
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-purple-200 {
+  background-color: var(--content-color);
+}
+
+/* Add any other custom styles you need */
+
